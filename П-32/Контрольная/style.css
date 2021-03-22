@@ -1,0 +1,124 @@
+body {
+	margin:0;
+	padding:0p;
+}
+.container {
+	width: 90%;
+	height: auto;
+	background-color:hsl(183, 29%, 45%);
+	position: absolute;
+	left:5%;
+}
+.header {
+	display:flex;
+	width:100%;
+	position:relative;
+	height:140px;
+	align-items:center;
+	justify-content: center	
+}
+.logo img {
+	width:150px;
+	height:120px;
+	margin: 10px;	
+}
+.name-site h1{
+	font-size: 80px;
+	left:20%;
+	color: white;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.menu-bar{
+	height:50px;
+	width:100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color:hsl(182, 16%, 51%);
+}
+.menu-bar ul a {
+	margin: 0 40px;
+	font-size: 30px;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	color:whitesmoke;
+	text-decoration: none;
+}
+ul a:hover {
+	color:rgb(173, 173, 173);
+	transition: all 0.5 ease;
+}
+.content {
+	float:left;
+	width:80%;
+	position: relative;
+}
+.right-sidebar {
+	float:right;
+	background-color:hsl(183, 21%, 62%);
+	width:20%;
+	text-align: center;
+}
+.right-sidebar img {
+	margin: 20px 0;
+}
+.right-sidebar p {
+	color: white;
+	font-size: 18px;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h2 {
+	text-align: center;
+	margin:20px 0;
+	color:white;
+	font-family: Open Sans;	
+}
+.content p {
+margin:30px 50px;
+font-size: 20px;
+color:rgba(255, 255, 255, 0.781);
+font-family: Open Sans;	
+}
+.content h3{
+	color:white;
+	font-family: 'Segoe UI';
+}
+.footer {
+	bottom:0;
+	width:100%;
+	position: relative;
+	float:left;
+	background-color: hsl(182, 16%, 51%);
+	display: flex;
+	align-items: center;
+}
+.footer-menubar {
+	display:flex;
+	width:80%;
+	height:150px;
+	margin: 20px 50px;
+}
+.footer-menubar h3 {
+	font-family: Open Sans;
+	font-size: 40px;
+	color:white;
+}
+.footer-menubar ul {
+	display: flex;
+	flex-flow: column wrap;
+	padding-left: 20px;
+	font-size: 25px;
+
+}
+.footer-menubar ul a {
+	margin-left:20px;
+	text-decoration: none;
+	color: white;
+}
+.footer-menubar ul a:hover {
+	color:rgb(173, 173, 173);
+}
+.about-us h3 {
+	color:white;
+	font-size: 20px;
+	font-family: Open Sans;
+}

@@ -1,0 +1,22 @@
+body {
+  margin: 0 !important;
+  padding: 0 !important;
+  background-color: whitesmoke;
+}
+.container {
+  position: absolute;
+  left:10%;
+  top:10%
+}
+.drop-list {
+display:block;
+width: 100px;
+height:30px;
+border: 2px solid cadetblue;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-weight:700;
+}
+h1{
+  font-size:25px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
